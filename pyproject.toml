@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "example-flask"
+version = "0.1.0"
+description = "Example basic of flask"
+authors = ["Miguel Ángel García Flores <miguelangelgarciafloresti@gmail.com>"]
+license = "Creative Commons Atribución 4.0 Internacional"
+readme = "README.md"
+packages = [{include = "example_flask"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.2.3"
+gunicorn = "^20.1.0"
+pyctuator = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
